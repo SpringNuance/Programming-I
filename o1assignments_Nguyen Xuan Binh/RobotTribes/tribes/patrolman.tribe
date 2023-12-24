@@ -1,0 +1,25 @@
+
+  # A member of the Patrolman Tribe moves clockwise in rectangles,
+  # hacking every enemy it encounters. When it runs into obstacles,
+  # it takes a look around counterclockwise before proceeding.
+
+radar:
+  callsub advance     # repeat three times: try to advance
+  callsub advance
+  callsub advance
+  spin                # turn clockwise
+  goto radar
+
+advance:              # move unless obstacle in front
+  ifnempty cantmove
+  move
+  return
+cantmove:             # spin around counterclockwise
+  switch
+  spin
+  spin
+  spin
+  switch
+  return
+
+

@@ -1,0 +1,497 @@
+2022.09.22 15:49:10 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.09.22 15:49:11 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/metals.log
+2022.09.22 15:49:11 INFO  Started: Metals version 0.11.8 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh' for client Visual Studio Code 1.71.0.
+2022.09.22 15:49:12 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.09.22 15:49:12 INFO  time: initialize in 1.39s
+2022.09.22 15:49:14 WARN  Build server is not auto-connectable.
+2022.09.22 15:49:14 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.09.22 15:49:14 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Odds/o1/Odds.scala
+Sep 22, 2022 3:49:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 1151 out of bounds for length 1151
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 1151 out of bounds for length 1151
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 1151 out of bounds for length 1151
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.isScala3BlockWithoutOptionalBraces(FoldingRangeExtractor.scala:248)
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.unapply(FoldingRangeExtractor.scala:199)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:36)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:29)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1705)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.09.22 15:49:19 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Odds/o1/Odds.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.09.22 15:49:21 INFO  time: code lens generation in 5.99s
+2022.09.22 15:52:05 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Odds/o1/OddsTest1.scala
+2022.09.22 16:00:42 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/FlappyBug/o1/FlappyBugApp.scala
+2022.09.22 16:01:57 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/FlappyBug/o1/Bug.scala
+2022.09.22 16:49:40 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Odds/o1/OddsTest2.scala
+Sep 22, 2022 4:49:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 862 out of bounds for length 862
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 862 out of bounds for length 862
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 862 out of bounds for length 862
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.isScala3BlockWithoutOptionalBraces(FoldingRangeExtractor.scala:248)
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.unapply(FoldingRangeExtractor.scala:199)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:36)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:29)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1705)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.09.22 16:54:09 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/FlappyBug/o1/Game.scala
+2022.09.22 16:54:12 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/FlappyBug/o1/FlappyBugApp.scala
+2022.09.22 16:54:15 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/FlappyBug/o1/constants.scala
+Sep 22, 2022 4:54:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 305 out of bounds for length 305
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 305 out of bounds for length 305
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 305 out of bounds for length 305
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.isScala3BlockWithoutOptionalBraces(FoldingRangeExtractor.scala:248)
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.unapply(FoldingRangeExtractor.scala:199)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:36)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:29)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1705)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.09.22 16:54:17 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/FlappyBug/o1/Bug.scala
+2022.09.22 17:47:32 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Football1/o1/football1/Club.scala
+2022.09.22 17:47:34 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Football1/o1/football1/Match.scala
+2022.09.22 17:49:20 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Football1/o1/football1/Club.scala
+2022.09.22 17:51:30 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Football1/o1/football1/Match.scala
+2022.09.22 17:53:23 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Football1/o1/football1/MatchTest.scala
+2022.09.22 17:54:28 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Football1/o1/football1/Club.scala
+2022.09.22 17:54:31 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Football1/o1/football1/Match.scala
+2022.09.22 18:19:19 INFO  shutting down Metals
+2022.09.30 13:45:59 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.09.30 13:46:00 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/metals.log
+2022.09.30 13:46:00 INFO  Started: Metals version 0.11.8 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh' for client Visual Studio Code 1.71.0.
+2022.09.30 13:46:01 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.09.30 13:46:01 INFO  time: initialize in 1.66s
+2022.09.30 13:46:03 WARN  Build server is not auto-connectable.
+2022.09.30 13:46:03 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.09.30 13:46:03 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/AuctionHouse1/o1/auctionhouse/FixedPriceSale.scala
+2022.09.30 13:46:07 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/AuctionHouse1/o1/auctionhouse/FixedPriceSale.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.09.30 13:46:07 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/AuctionHouse1/o1/auctionhouse/FixedPriceSaleTest.scala
+Sep 30, 2022 1:46:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2022.09.30 13:46:07 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/AuctionHouse1/o1/auctionhouse/FixedPriceSale.scala
+2022.09.30 13:46:11 INFO  time: code lens generation in 3.07s
+2022.09.30 13:46:11 INFO  time: code lens generation in 2.26s
+2022.09.30 13:46:11 INFO  time: code lens generation in 6.82s
+2022.09.30 15:51:10 INFO  shutting down Metals
+2022.09.30 17:43:56 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.09.30 17:43:57 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/metals.log
+2022.09.30 17:43:57 INFO  Started: Metals version 0.11.8 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh' for client Visual Studio Code 1.71.0.
+2022.09.30 17:43:58 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.09.30 17:43:59 INFO  time: initialize in 1.74s
+2022.09.30 17:44:01 WARN  Build server is not auto-connectable.
+2022.09.30 17:44:01 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.09.30 17:44:01 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/AuctionHouse1/o1/auctionhouse/FixedPriceSale.scala
+2022.09.30 17:44:05 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/AuctionHouse1/o1/auctionhouse/FixedPriceSale.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.09.30 17:44:05 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/FlappyBug/o1/Bug.scala
+2022.09.30 17:44:07 INFO  time: code lens generation in 2.12s
+2022.09.30 17:44:07 INFO  time: code lens generation in 5.9s
+2022.09.30 17:44:07 INFO  time: code lens generation in 5.89s
+2022.09.30 18:47:45 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/FlappyBug/o1/Game.scala
+2022.09.30 20:35:34 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Miscellaneous/o1/inputs/InputTest.scala
+2022.09.30 20:47:44 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Miscellaneous/o1/misc.scala
+2022.09.30 20:56:58 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Stars/o1/stars/io/SkyPic.scala
+Sep 30, 2022 8:56:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 4543 out of bounds for length 4543
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 4543 out of bounds for length 4543
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 4543 out of bounds for length 4543
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.isScala3BlockWithoutOptionalBraces(FoldingRangeExtractor.scala:248)
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.unapply(FoldingRangeExtractor.scala:199)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:36)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:29)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1705)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.09.30 20:57:00 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Stars/o1/stars/io/StarryApp.scala
+2022.09.30 20:57:04 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Stars/o1/stars/io/SkyFiles.scala
+2022.09.30 21:49:35 INFO  shutting down Metals
+2022.10.01 13:50:34 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.10.01 13:50:35 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/metals.log
+2022.10.01 13:50:35 INFO  Started: Metals version 0.11.8 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh' for client Visual Studio Code 1.71.0.
+2022.10.01 13:50:36 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.10.01 13:50:37 INFO  time: initialize in 2.1s
+2022.10.01 13:50:40 WARN  Build server is not auto-connectable.
+2022.10.01 13:50:40 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.10.01 13:50:40 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Stars/o1/stars/io/SkyFiles.scala
+2022.10.01 13:50:45 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Stars/o1/stars/io/SkyFiles.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.10.01 13:50:46 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/FlappyBug/o1/Bug.scala
+2022.10.01 13:50:49 INFO  time: code lens generation in 2.92s
+2022.10.01 13:50:49 INFO  time: code lens generation in 2.92s
+2022.10.01 14:13:19 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/ForLoops/o1/looptest/Task1.scala
+2022.10.01 14:17:59 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/ForLoops/o1/looptest/Task2.scala
+2022.10.01 14:18:01 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/ForLoops/o1/looptest/Task3.scala
+2022.10.01 14:18:02 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/ForLoops/o1/looptest/Task4.scala
+2022.10.01 14:18:06 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/ForLoops/o1/looptest/Example4.scala
+2022.10.01 14:19:38 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Football1/o1/football1/Match.scala
+2022.10.01 14:41:21 INFO  shutting down Metals
+2022.10.08 21:34:09 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.10.08 21:34:10 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/metals.log
+2022.10.08 21:34:10 INFO  Started: Metals version 0.11.9 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh' for client Visual Studio Code 1.71.0.
+2022.10.08 21:34:13 INFO  time: initialize in 2.59s
+2022.10.08 21:34:16 WARN  Build server is not auto-connectable.
+2022.10.08 21:34:16 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.10.08 21:34:16 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Football1/o1/football1/Match.scala
+2022.10.08 21:34:25 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Football1/o1/football1/Match.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.08 21:34:29 INFO  time: code lens generation in 11s
+2022.10.08 21:41:54 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/FlappyBug/o1/Obstacle.scala
+2022.10.08 21:42:09 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/FlappyBug/o1/Game.scala
+2022.10.08 21:44:50 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/FlappyBug/o1/FlappyBugApp.scala
+2022.10.08 22:12:22 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/ForLoops/o1/looptest/Task7.scala
+2022.10.08 22:14:22 INFO  shutting down Metals
+2022.10.10 19:26:01 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.10.10 19:26:02 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/metals.log
+2022.10.10 19:26:02 INFO  Started: Metals version 0.11.9 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh' for client Visual Studio Code 1.71.0.
+2022.10.10 19:26:04 INFO  time: initialize in 1.8s
+2022.10.10 19:26:06 WARN  Build server is not auto-connectable.
+2022.10.10 19:26:06 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.10.10 19:26:06 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/FlappyBug/o1/FlappyBugApp.scala
+2022.10.10 19:26:10 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/FlappyBug/o1/FlappyBugApp.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.10 19:26:12 INFO  time: code lens generation in 5.75s
+2022.10.10 19:26:12 INFO  time: code lens generation in 3.65s
+2022.10.10 20:16:15 WARN  no build target for: /Users/mac/Downloads/A1140-scala3-r5-allAnagrams/src/main/scala/allAnagrams/AnagramFinder.scala
+2022.10.10 20:35:36 WARN  no build target for: /Users/mac/Downloads/A1140-scala3-r5-allAnagrams/src/main/scala/allAnagrams/AnagramFinder.scala
+2022.10.10 20:35:38 INFO  shutting down Metals
+2022.10.11 22:30:31 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.10.11 22:30:32 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/metals.log
+2022.10.11 22:30:32 INFO  Started: Metals version 0.11.9 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh' for client Visual Studio Code 1.71.0.
+2022.10.11 22:30:33 INFO  time: initialize in 1.67s
+2022.10.11 22:30:36 WARN  Build server is not auto-connectable.
+2022.10.11 22:30:36 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.10.11 22:30:36 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/hofuncs/Task1.scala
+2022.10.11 22:30:36 WARN  no build target for: /Users/mac/Downloads/A1140-scala3-r5-allAnagrams/src/main/scala/allAnagrams/AnagramFinder.scala
+2022.10.11 22:30:41 INFO  no build target found for /Users/mac/Downloads/A1140-scala3-r5-allAnagrams/src/main/scala/allAnagrams/AnagramFinder.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.11 22:30:45 INFO  time: code lens generation in 8.38s
+2022.10.11 22:35:34 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/hofuncs/Task2.scala
+2022.10.11 22:40:11 INFO  shutting down Metals
+2022.10.12 10:54:19 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.10.12 10:54:20 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/metals.log
+2022.10.12 10:54:20 INFO  Started: Metals version 0.11.9 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh' for client Visual Studio Code 1.71.0.
+2022.10.12 10:54:21 INFO  time: initialize in 1.93s
+2022.10.12 10:54:24 WARN  Build server is not auto-connectable.
+2022.10.12 10:54:24 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.10.12 10:54:24 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/hofuncs/Task2.scala
+2022.10.12 10:54:28 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/hofuncs/Task2.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.12 10:54:31 INFO  time: code lens generation in 6.38s
+2022.10.12 10:54:35 INFO  shutting down Metals
+2022.10.12 13:22:55 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.10.12 13:22:56 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/metals.log
+2022.10.12 13:22:56 INFO  Started: Metals version 0.11.9 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh' for client Visual Studio Code 1.71.0.
+2022.10.12 13:22:58 INFO  time: initialize in 1.87s
+2022.10.12 13:22:59 WARN  Build server is not auto-connectable.
+2022.10.12 13:22:59 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.10.12 13:22:59 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/hofuncs/Task2.scala
+2022.10.12 13:23:03 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/hofuncs/Task2.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.12 13:23:05 INFO  time: code lens generation in 4.69s
+2022.10.12 14:24:55 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/hofuncs/Task4.scala
+2022.10.12 19:59:13 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/hofuncs/Task5.scala
+2022.10.12 20:15:50 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/hofuncs/Task7.scala
+2022.10.12 20:17:13 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/hofuncs/Task8.scala
+2022.10.12 20:19:14 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/hofuncs/Task9.scala
+2022.10.12 20:28:28 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/hofuncs/Task9.scala
+2022.10.12 22:44:12 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Snake/o1/snake/SnakeGame.scala
+2022.10.12 22:44:47 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Snake/o1/snake/SnakeApp.scala
+2022.10.12 23:06:15 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Snake/o1/snake/SnakeGame.scala
+2022.10.12 23:20:17 INFO  shutting down Metals
+2022.10.21 10:48:32 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.10.21 10:48:33 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/metals.log
+2022.10.21 10:48:33 INFO  Started: Metals version 0.11.9 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh' for client Visual Studio Code 1.71.0.
+2022.10.21 10:48:35 INFO  time: initialize in 1.89s
+2022.10.21 10:48:37 WARN  Build server is not auto-connectable.
+2022.10.21 10:48:37 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.10.21 10:48:37 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/FlappyBug/o1/FlappyBugApp.scala
+2022.10.21 10:48:40 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/FlappyBug/o1/Game.scala
+2022.10.21 10:48:44 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/FlappyBug/o1/FlappyBugApp.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.21 10:48:46 INFO  time: code lens generation in 8.46s
+2022.10.21 10:48:46 INFO  time: code lens generation in 5.21s
+2022.10.22 11:05:28 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/rainfall/rainfall.scala
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.22 11:07:30 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/rainfall/rainfall.scala
+2022.10.22 11:33:12 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/rainfall/rainfall.scala
+2022.10.22 22:56:40 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Sentiments/o1/sentiment/package.scala
+2022.10.22 22:56:43 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Sentiments/o1/sentiment/SentimentAnalyzer.scala
+2022.10.22 22:57:14 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Sentiments/o1/sentiment/ui/MovieSentimentApp.scala
+2022.10.22 22:59:49 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/rainfall/rainfall.scala
+2022.10.22 22:59:50 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/rainfall/RainfallApp.scala
+2022.10.22 23:14:13 INFO  shutting down Metals
+2022.10.23 21:07:25 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.10.23 21:07:26 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/metals.log
+2022.10.23 21:07:26 INFO  Started: Metals version 0.11.9 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh' for client Visual Studio Code 1.71.0.
+2022.10.23 21:07:27 INFO  time: initialize in 1.62s
+2022.10.23 21:07:29 WARN  Build server is not auto-connectable.
+2022.10.23 21:07:29 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.10.23 21:07:29 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/rainfall/RainfallApp.scala
+2022.10.23 21:07:32 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/HigherOrder/o1/rainfall/RainfallApp.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.23 21:07:35 INFO  time: code lens generation in 5.36s
+2022.10.23 22:52:12 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/legal/Entity.scala
+2022.10.23 22:52:17 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/legal/NaturalPerson.scala
+2022.10.23 22:52:28 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/legal/Restriction.scala
+2022.10.23 22:52:53 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/legal/CourtCase.scala
+2022.10.23 22:52:55 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/legal/Entity.scala
+2022.10.23 22:53:13 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/legal/NaturalPerson.scala
+2022.10.23 23:01:18 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/legal/JuridicalPerson.scala
+2022.10.23 23:06:21 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/legal/JuridicalPerson.scala
+2022.10.23 23:13:47 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/legal/Entity.scala
+2022.10.23 23:13:49 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/legal/CourtCase.scala
+2022.10.23 23:13:51 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/legal/Restriction.scala
+2022.10.23 23:13:53 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/legal/NaturalPerson.scala
+2022.10.23 23:13:56 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/legal/JuridicalPerson.scala
+2022.10.23 23:20:44 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/legal/CourtCase.scala
+2022.10.24 00:17:03 INFO  shutting down Metals
+2022.10.24 17:31:49 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.10.24 17:31:50 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/metals.log
+2022.10.24 17:31:50 INFO  Started: Metals version 0.11.9 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh' for client Visual Studio Code 1.71.0.
+2022.10.24 17:31:52 INFO  time: initialize in 2.14s
+2022.10.24 17:31:55 WARN  Build server is not auto-connectable.
+2022.10.24 17:31:55 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.10.24 17:31:55 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/legal/CourtCase.scala
+2022.10.24 17:32:01 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/legal/CourtCase.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.24 17:32:04 INFO  time: code lens generation in 7.97s
+2022.10.24 17:32:57 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/items/Container.scala
+2022.10.24 17:44:01 WARN  no build target for: /Users/mac/Aalto Courses/O1 2022/O1-test/Traits/o1/items/Container.scala
+Oct 24, 2022 5:44:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+2022.10.24 17:47:12 INFO  shutting down Metals
+2022.10.24 22:48:43 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.10.24 22:48:44 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/metals.log
+2022.10.24 22:48:44 INFO  Started: Metals version 0.11.9 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh' for client Visual Studio Code 1.71.0.
+2022.10.24 22:48:45 INFO  time: initialize in 1.59s
+2022.10.24 22:48:47 WARN  Build server is not auto-connectable.
+2022.10.24 22:48:47 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.10.24 22:48:47 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/items/Container.scala
+2022.10.24 22:48:48 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Viinaharava/o1/viinaharava/GameBoard.scala
+2022.10.24 22:48:50 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Viinaharava/o1/viinaharava/Glass.scala
+2022.10.24 22:48:52 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Subtypes/o1/items/Container.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.24 22:48:54 INFO  time: code lens generation in 3.82s
+2022.10.24 22:48:54 INFO  time: code lens generation in 6.21s
+2022.10.24 22:48:54 INFO  time: code lens generation in 6.34s
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022.10.24 22:50:28 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Viinaharava/o1/viinaharava/GameBoard.scala
+2022.10.24 22:50:28 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Viinaharava/o1/viinaharava/GameBoard.scala
+2022.10.24 22:51:12 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Viinaharava/o1/viinaharava/GameBoard.scala
+2022.10.24 23:09:16 INFO  shutting down Metals
+2022.10.26 21:13:58 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.10.26 21:13:59 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/metals.log
+2022.10.26 21:13:59 INFO  Started: Metals version 0.11.9 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh' for client Visual Studio Code 1.71.0.
+2022.10.26 21:14:00 INFO  time: initialize in 1.74s
+2022.10.26 21:14:02 WARN  Build server is not auto-connectable.
+2022.10.26 21:14:02 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.10.26 21:14:02 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Viinaharava/o1/viinaharava/GameBoard.scala
+Oct 26, 2022 9:14:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2022.10.26 21:14:06 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Viinaharava/o1/viinaharava/GameBoard.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.26 21:14:06 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/CitySim/o1/city/CityMap.scala
+2022.10.26 21:14:09 INFO  time: code lens generation in 2.44s
+2022.10.26 21:14:09 INFO  time: code lens generation in 5.56s
+2022.10.26 21:25:28 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/CitySim/o1/city/Demographic.scala
+2022.10.26 21:25:30 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/CitySim/o1/city/Simulator.scala
+Oct 26, 2022 9:25:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+2022.10.26 22:05:48 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/CitySim/o1/city/CityMap.scala
+2022.10.26 22:30:27 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/CitySim/o1/city/Demographic.scala
+2022.10.26 23:02:34 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Robots/o1/robots/RobotWorld.scala
+Oct 26, 2022 11:33:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 102
+2022.10.26 23:33:56 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Robots/o1/robots/Spinbot.scala
+2022.10.26 23:34:03 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Robots/o1/robots/RobotBody.scala
+2022.10.26 23:43:17 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Robots/o1/robots/RobotBrain.scala
+2022.10.26 23:48:33 INFO  shutting down Metals
+2022.10.30 04:10:50 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.10.30 04:10:51 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/metals.log
+2022.10.30 04:10:51 INFO  Started: Metals version 0.11.9 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh' for client Visual Studio Code 1.71.0.
+2022.10.30 04:10:52 INFO  time: initialize in 1.68s
+2022.10.30 04:10:54 WARN  Build server is not auto-connectable.
+2022.10.30 04:10:54 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.10.30 04:10:54 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Robots/o1/robots/RobotBrain.scala
+2022.10.30 04:11:01 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Robots/o1/robots/RobotBrain.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.10.30 04:11:03 INFO  time: code lens generation in 2.31s
+2022.10.30 04:11:03 INFO  time: code lens generation in 8.27s
+2022.10.30 04:11:06 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Robots/o1/robots/Nosebot.scala
+2022.10.30 04:16:14 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Robots/o1/robots/Staggerbot.scala
+2022.10.30 04:16:17 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Robots/o1/robots/Square.scala
+Oct 30, 2022 4:16:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+2022.10.30 04:20:32 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Robots/o1/robots/Lovebot.scala
+2022.10.30 04:23:37 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Robots/o1/robots/Psychobot.scala
+2022.10.30 04:28:52 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Robots/o1/robots/Psychobot.scala
+2022.10.30 05:37:14 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Miscellaneous/o1/people/YoungAndOldApp.scala
+2022.10.30 05:56:01 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Miscellaneous/o1/misc.scala
+2022.10.30 05:57:55 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Miscellaneous/o1/people/Society.scala
+2022.10.30 06:00:36 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Adventure/o1/adventure/Adventure.scala
+2022.10.30 06:03:03 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Adventure/o1/adventure/Potion.scala
+2022.10.30 06:03:07 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/AdventureDraft/o1/adventure/draft/Adventure.scala
+2022.10.30 06:20:21 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Adventure/o1/adventure/Player.scala
+2022.10.30 06:22:14 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Adventure/o1/adventure/Adventure.scala
+2022.10.30 06:29:49 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/AdventureDraft/o1/adventure/draft/Adventure.scala
+2022.10.30 06:33:42 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Adventure/o1/adventure/Adventure.scala
+2022.10.30 06:34:12 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/AdventureDraft/o1/adventure/draft/Area.scala
+2022.10.30 06:34:17 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Adventure/o1/adventure/Room.scala
+2022.10.30 06:34:31 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Adventure/o1/adventure/Potion.scala
+2022.10.30 06:34:32 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Adventure/o1/adventure/Player.scala
+2022.10.30 06:34:35 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Adventure/o1/adventure/Bullets.scala
+2022.10.30 06:35:55 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/AdventureDraft/o1/adventure/draft/Area.scala
+2022.10.30 06:36:19 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/AdventureDraft/o1/adventure/draft/ui/AdventureTextUI.scala
+2022.10.30 06:36:20 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/AdventureDraft/o1/adventure/draft/Action.scala
+2022.10.30 06:36:22 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/AdventureDraft/o1/adventure/draft/Area.scala
+2022.10.30 06:37:05 WARN  no build target for: /Users/mac/Public/Aalto Courses/Programming I/Adventure 2/o1/adventure/Area.scala
+Oct 30, 2022 6:37:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 331
+2022.10.30 21:47:17 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Robots/o1/robots/Psychobot.scala
+2022.10.31 19:37:34 INFO  shutting down Metals
+2022.11.02 16:20:58 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.11.02 16:20:59 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/metals.log
+2022.11.02 16:20:59 INFO  Started: Metals version 0.11.9 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh' for client Visual Studio Code 1.71.0.
+2022.11.02 16:21:01 INFO  time: initialize in 2.25s
+2022.11.02 16:21:03 WARN  Build server is not auto-connectable.
+2022.11.02 16:21:03 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.11.02 16:21:03 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Robots/o1/robots/Psychobot.scala
+2022.11.02 16:21:10 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Robots/o1/robots/Psychobot.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.11.02 16:21:14 INFO  time: code lens generation in 9.36s
+2022.11.02 16:39:58 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Stars/o1/stars/Constellation.scala
+2022.11.02 16:41:41 WARN  no build target for: /Users/mac/Public/Aalto Courses/Programming I/Adventure 2/o1/adventure/Area.scala
+2022.11.02 16:41:44 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Stars/o1/stars/io/SkyPic.scala
+2022.11.02 16:44:49 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Stars/o1/stars/io/SkyPic.scala
+2022.11.02 20:10:18 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/CitySim/o1/city/Simulator.scala
+2022.11.02 20:27:07 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Election/o1/election/Candidate.scala
+2022.11.02 20:27:08 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Election/o1/election/District.scala
+2022.11.02 20:37:19 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Peeveli/o1/peeveli/GameState.scala
+2022.11.03 23:35:42 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Stars/o1/stars/Constellation.scala
+2022.11.03 23:35:44 INFO  shutting down Metals
+2022.11.05 14:57:29 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.11.05 14:57:30 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/.metals/metals.log
+2022.11.05 14:57:30 INFO  Started: Metals version 0.11.9 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh' for client Visual Studio Code 1.71.0.
+2022.11.05 14:57:32 INFO  time: initialize in 2.21s
+2022.11.05 14:57:35 WARN  Build server is not auto-connectable.
+2022.11.05 14:57:35 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.11.05 14:57:35 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Viinaharava/o1/viinaharava/GameBoard.scala
+2022.11.05 14:57:40 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Viinaharava/o1/viinaharava/GameBoard.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.11.05 14:57:44 INFO  time: code lens generation in 8.15s
+2022.11.05 15:20:16 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Recursion/o1/family/FamilyMember.scala
+2022.11.05 15:49:33 INFO  shutting down Metals

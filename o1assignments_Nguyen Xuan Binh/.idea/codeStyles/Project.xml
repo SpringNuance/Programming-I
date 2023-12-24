@@ -1,0 +1,16 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <ScalaCodeStyleSettings>
+      <option name="alwaysUsedImports">
+        <array>
+          <option value="o1._" />
+          <option value="scala.collection.mutable.Buffer" />
+          <option value="scala.math.Ordering.Double.TotalOrdering" />
+          <option value="scala.math._" />
+          <option value="scala.util.Random" />
+        </array>
+      </option>
+      <option name="USE_SCALADOC2_FORMATTING" value="true" />
+    </ScalaCodeStyleSettings>
+  </code_scheme>
+</component>

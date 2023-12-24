@@ -1,0 +1,25 @@
+2022.10.30 06:37:56 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/Adventure 2/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.10.30 06:37:57 INFO  logging to file /Users/mac/Aalto Courses/Programming I/Adventure 2/.metals/metals.log
+2022.10.30 06:37:57 INFO  Started: Metals version 0.11.9 in workspace '/Users/mac/Aalto Courses/Programming I/Adventure 2' for client Visual Studio Code 1.71.0.
+2022.10.30 06:37:58 INFO  time: initialize in 1.43s
+2022.10.30 06:38:00 WARN  Build server is not auto-connectable.
+2022.10.30 06:38:00 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/Adventure 2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.10.30 06:38:00 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/Adventure 2/o1/adventure/Adventure.scala
+2022.10.30 06:38:04 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/Adventure 2/o1/adventure/Adventure.scala. Using presentation compiler with project's scala-library version: 3.2.0
+Oct 30, 2022 6:38:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2022.10.30 06:38:06 INFO  time: code lens generation in 1.95s
+2022.10.30 06:38:06 INFO  time: code lens generation in 5.5s
+2022.10.30 06:39:19 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/Adventure 2/o1/adventure/Area.scala
+2022.10.30 06:42:17 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/Adventure 2/o1/adventure/Player.scala
+2022.10.30 06:46:54 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/Adventure 2/o1/adventure/Area.scala
+2022.10.30 06:47:44 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/Adventure 2/o1/adventure/Item.scala
+2022.10.30 06:47:45 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/Adventure 2/o1/adventure/Player.scala
+2022.10.30 06:51:06 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/Adventure 2/o1/adventure/Action.scala
+2022.10.30 06:53:50 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/Adventure 2/o1/adventure/Adventure.scala
+2022.10.30 06:55:00 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/Adventure 2/o1/adventure/Player.scala
+2022.10.30 06:56:24 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/Adventure 2/o1/adventure/Item.scala
+2022.10.30 06:56:32 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/Adventure 2/o1/adventure/Area.scala
+2022.10.30 06:57:59 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/Adventure 2/o1/adventure/Player.scala
+2022.10.30 21:46:19 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/Adventure 2/o1/adventure/Adventure.scala
+2022.10.31 19:37:36 INFO  shutting down Metals

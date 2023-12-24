@@ -1,0 +1,250 @@
+Das Boot;1981;71;8.4;Wolfgang Petersen
+Amadeus;1984;91;8.4;Milos Forman
+Heat;1995;124;8.3;Michael Mann
+The Secret in Their Eyes;2009;136;8.3;Juan José Campanella
+Bicycle Thieves;1948;88;8.4;Vittorio De Sica
+Gone Girl;2014;149;8.2;David Fincher
+12 Years a Slave;2013;177;8.1;Steve McQueen
+Once Upon a Time in the West;1968;29;8.6;Sergio Leone
+North by Northwest;1959;64;8.4;Alfred Hitchcock
+Ben-Hur;1959;184;8.1;William Wyler
+Blade Runner;1982;135;8.2;Ridley Scott
+Schindler's List;1993;6;8.9;Steven Spielberg
+It Happened One Night;1934;153;8.2;Frank Capra
+The Avengers;2012;200;8.2;Joss Whedon
+Prisoners;2013;240;8.1;Denis Villeneuve
+A Clockwork Orange;1971;79;8.4;Stanley Kubrick
+Unforgiven;1992;111;8.3;Clint Eastwood
+Jurassic Park;1993;227;8.0;Steven Spielberg
+Aliens;1986;65;8.4;James Cameron
+Interstellar;2014;26;8.7;Christopher Nolan
+No Country for Old Men;2007;165;8.1;Ethan Coen,Joel Coen
+Gandhi;1982;197;8.1;Richard Attenborough
+Paths of Glory;1957;60;8.5;Stanley Kubrick
+Barry Lyndon;1975;217;8.1;Stanley Kubrick
+Some Like It Hot;1959;109;8.3;Billy Wilder
+Eternal Sunshine of the Spotless Mind;2004;86;8.4;Michel Gondry
+The Princess Bride;1987;181;8.2;Rob Reiner
+Strangers on a Train;1951;201;8.1;Alfred Hitchcock
+Star Wars: Episode VI - Return of the Jedi;1983;74;8.4;Richard Marquand
+The Lion King;1994;54;8.5;Roger Allers,Rob Minkoff
+Mr. Smith Goes to Washington;1939;126;8.3;Frank Capra
+Trainspotting;1996;156;8.2;Danny Boyle
+Saving Private Ryan;1998;32;8.6;Steven Spielberg
+The Departed;2006;46;8.5;Martin Scorsese
+The Kid;1921;99;8.4;Charles Chaplin
+Before Sunrise;1995;206;8.1;Richard Linklater
+8½;1963;195;8.1;Federico Fellini
+Rear Window;1954;38;8.6;Alfred Hitchcock
+Léon: The Professional;1994;27;8.6;Luc Besson
+3 Idiots;2009;116;8.5;Rajkumar Hirani
+L.A. Confidential;1997;98;8.3;Curtis Hanson
+Fargo;1996;154;8.2;Joel Coen,Ethan Coen
+Monsters, Inc.;2001;214;8.1;Pete Docter,David Silverman,Lee Unkrich
+The Seventh Seal;1957;130;8.3;Ingmar Bergman
+Shutter Island;2010;196;8.1;Martin Scorsese
+The Shining;1980;58;8.5;Stanley Kubrick
+The Third Man;1949;106;8.3;Carol Reed
+Pulp Fiction;1994;5;8.9;Quentin Tarantino
+Reservoir Dogs;1992;77;8.4;Quentin Tarantino
+The Sting;1973;89;8.4;George Roy Hill
+Fanny and Alexander;1982;204;8.2;Ingmar Bergman
+Spirited Away;2001;33;8.6;Hayao Miyazaki
+X-Men: Days of Future Past;2014;235;8.1;Bryan Singer
+Cool Hand Luke;1967;150;8.2;Stuart Rosenberg
+Yojimbo;1961;108;8.4;Akira Kurosawa
+Batman Begins;2005;110;8.3;Christopher Nolan
+Sunset Blvd.;1950;49;8.5;Billy Wilder
+It's a Wonderful Life;1946;25;8.7;Frank Capra
+Annie Hall;1977;178;8.1;Woody Allen
+Spring, Summer, Fall, Winter... and Spring;2003;238;8.1;Ki-duk Kim
+Warrior;2011;143;8.2;Gavin O'Connor
+Amores Perros;2000;183;8.1;Alejandro González Iñárritu
+Kill Bill: Vol. 1;2003;168;8.1;Quentin Tarantino
+The Godfather: Part II;1974;3;9.1;Francis Ford Coppola
+Ran;1985;131;8.3;Akira Kurosawa
+The Grand Budapest Hotel;2014;182;8.1;Wes Anderson
+Rush;2013;160;8.2;Ron Howard
+Life Is Beautiful;1997;28;8.6;Roberto Benigni
+2001: A Space Odyssey;1968;94;8.3;Stanley Kubrick
+The Best Years of Our Lives;1946;192;8.2;William Wyler
+The Good, the Bad and the Ugly;1966;8;8.9;Sergio Leone
+Castle in the Sky;1986;230;8.1;Hayao Miyazaki
+Ip Man;2008;220;8.1;Wilson Yip
+The Great Dictator;1940;56;8.5;Charles Chaplin
+The 400 Blows;1959;176;8.2;François Truffaut
+Indiana Jones and the Last Crusade;1989;105;8.3;Steven Spielberg
+The Thing;1982;164;8.2;John Carpenter
+Citizen Kane;1941;67;8.4;Orson Welles
+Rashomon;1950;96;8.4;Akira Kurosawa
+Django Unchained;2012;59;8.5;Quentin Tarantino
+Up;2009;113;8.3;Pete Docter,Bob Peterson
+The Truman Show;1998;223;8.1;Peter Weir
+Casablanca;1942;30;8.6;Michael Curtiz
+Incendies;2010;171;8.2;Denis Villeneuve
+Snatch;2000;93;8.3;Guy Ritchie
+Departures;2008;245;8.1;Yôjirô Takita
+The Great Escape;1963;119;8.3;John Sturges
+Good Will Hunting;1997;123;8.3;Gus Van Sant
+La Haine;1995;224;8.1;Mathieu Kassovitz
+Before Sunset;2004;248;8.1;Richard Linklater
+Solaris;1972;246;8.1;Andrei Tarkovsky
+Who's Afraid of Virginia Woolf?;1966;228;8.1;Mike Nichols
+Star Wars: Episode V - The Empire Strikes Back;1980;12;8.8;Irvin Kershner
+One Flew Over the Cuckoo's Nest;1975;15;8.7;Milos Forman
+The Terminator;1984;209;8.1;James Cameron
+American History X;1998;31;8.6;Tony Kaye
+Se7en;1995;22;8.7;David Fincher
+Nausicaä of the Valley of the Wind;1984;191;8.2;Hayao Miyazaki
+Downfall;2004;115;8.3;Oliver Hirschbiegel
+Persona;1966;180;8.2;Ingmar Bergman
+The Lord of the Rings: The Two Towers;2002;16;8.8;Peter Jackson
+Roman Holiday;1953;233;8.1;William Wyler
+Butch Cassidy and the Sundance Kid;1969;172;8.2;George Roy Hill
+Double Indemnity;1944;80;8.4;Billy Wilder
+The King's Speech;2010;216;8.1;Tom Hooper
+The Night of the Hunter;1955;231;8.1;Charles Laughton,Robert Mitchum,Terry Sanders
+Monty Python and the Holy Grail;1975;92;8.3;Terry Gilliam,Terry Jones
+Sin City;2005;188;8.1;Frank Miller,Robert Rodriguez,Quentin Tarantino
+Beauty and the Beast;1991;247;8.0;Gary Trousdale,Kirk Wise
+Star Wars: Episode IV - A New Hope;1977;19;8.7;George Lucas
+Wild Tales;2014;225;8.2;Damián Szifrón
+The Maltese Falcon;1941;159;8.2;John Huston
+Vertigo;1958;68;8.4;Alfred Hitchcock
+Three Colors: Red;1994;241;8.1;Krzysztof Kieslowski
+Mad Max: Fury Road;2015;37;8.6;George Miller
+On the Waterfront;1954;122;8.3;Elia Kazan
+Apocalypse Now;1979;47;8.5;Francis Ford Coppola
+Inglourious Basterds;2009;102;8.3;Quentin Tarantino,Eli Roth
+The Intouchables;2011;39;8.6;Olivier Nakache,Eric Toledano
+The Lord of the Rings: The Return of the King;2003;9;8.9;Peter Jackson
+Scarface;1983;112;8.3;Brian De Palma
+A Separation;2011;104;8.4;Asghar Farhadi
+The Lord of the Rings: The Fellowship of the Ring;2001;11;8.8;Peter Jackson
+Stand by Me;1986;179;8.1;Rob Reiner
+Full Metal Jacket;1987;87;8.3;Stanley Kubrick
+The Hustler;1961;250;8.1;Robert Rossen
+Toy Story 3;2010;76;8.4;Lee Unkrich
+Paris, Texas;1984;244;8.1;Wim Wenders
+Goodfellas;1990;17;8.7;Martin Scorsese
+The Wolf of Wall Street;2013;139;8.2;Martin Scorsese
+Toy Story;1995;103;8.3;John Lasseter
+Like Stars on Earth;2007;117;8.5;Aamir Khan,Amole Gupte
+Terminator 2: Judgment Day;1991;43;8.5;James Cameron
+In the Name of the Father;1993;186;8.1;Jim Sheridan
+V for Vendetta;2005;146;8.2;James McTeigue
+Oldboy;2003;69;8.4;Chan-wook Park
+Amélie;2001;73;8.4;Jean-Pierre Jeunet
+Mary and Max;2009;162;8.2;Adam Elliot
+The Wages of Fear;1953;167;8.3;Henri-Georges Clouzot
+Memento;2000;45;8.5;Christopher Nolan
+Ikiru;1952;129;8.3;Akira Kurosawa
+For a Few Dollars More;1965;95;8.3;Sergio Leone
+The Matrix;1999;18;8.7;Andy Wachowski,Lana Wachowski
+Once Upon a Time in America;1984;75;8.4;Sergio Leone
+Modern Times;1936;40;8.6;Charles Chaplin
+Back to the Future;1985;51;8.5;Robert Zemeckis
+The Help;2011;234;8.1;Tate Taylor
+M;1931;70;8.4;Fritz Lang
+American Beauty;1999;62;8.4;Sam Mendes
+Harry Potter and the Deathly Hallows: Part 2;2011;215;8.1;David Yates
+How to Train Your Dragon;2010;151;8.2;Dean DeBlois,Chris Sanders
+The Bourne Ultimatum;2007;198;8.1;Paul Greengrass
+Lock, Stock and Two Smoking Barrels;1998;138;8.2;Guy Ritchie
+Platoon;1986;169;8.1;Oliver Stone
+Judgment at Nuremberg;1961;147;8.3;Stanley Kramer
+The Pianist;2002;44;8.5;Roman Polanski
+Chinatown;1974;118;8.3;Roman Polanski
+Touch of Evil;1958;174;8.2;Orson Welles
+Memories of Murder;2003;211;8.1;Joon-ho Bong
+Underground;1995;237;8.2;Emir Kusturica
+Wild Strawberries;1957;134;8.3;Ingmar Bergman
+The Battle of Algiers;1966;207;8.2;Gillo Pontecorvo
+The Green Mile;1999;42;8.5;Frank Darabont
+Stalker;1979;194;8.2;Andrei Tarkovsky
+Casino;1995;140;8.2;Martin Scorsese
+The Killing;1956;242;8.1;Stanley Kubrick
+Hachi: A Dog's Tale;2009;190;8.2;Lasse Hallström
+All About Eve;1950;97;8.4;Joseph L. Mankiewicz
+Rocky;1976;219;8.1;John G. Avildsen
+The Dark Knight;2008;4;9.0;Christopher Nolan
+The Prestige;2006;53;8.5;Christopher Nolan
+The Wizard of Oz;1939;193;8.1;Victor Fleming,George Cukor,Mervyn LeRoy,Norman Taurog,King Vidor
+Psycho;1960;36;8.6;Alfred Hitchcock
+The Apartment;1960;100;8.3;Billy Wilder
+Alien;1979;52;8.5;Ridley Scott
+La Strada;1954;232;8.1;Federico Fellini
+Network;1976;173;8.2;Sidney Lumet
+Forrest Gump;1994;13;8.8;Robert Zemeckis
+Dial M for Murder;1954;158;8.2;Alfred Hitchcock
+Cinema Paradiso;1988;57;8.5;Giuseppe Tornatore
+The General;1926;133;8.3;Clyde Bruckman,Buster Keaton
+Requiem for a Dream;2000;83;8.4;Darren Aronofsky
+A Beautiful Mind;2001;152;8.2;Ron Howard
+High Noon;1952;212;8.1;Fred Zinnemann
+Singin' in the Rain;1952;90;8.4;Stanley Donen,Gene Kelly
+Boyhood;2014;222;8.1;Richard Linklater
+The Imitation Game;2014;213;8.1;Morten Tyldum
+Inception;2010;14;8.8;Christopher Nolan
+Taxi Driver;1976;82;8.4;Martin Scorsese
+Raiders of the Lost Ark;1981;35;8.6;Steven Spielberg
+The Silence of the Lambs;1991;24;8.6;Jonathan Demme
+Metropolis;1927;107;8.3;Fritz Lang
+City of God;2002;21;8.7;Fernando Meirelles,Kátia Lund
+Million Dollar Baby;2004;185;8.1;Clint Eastwood
+Fight Club;1999;10;8.9;David Fincher
+Le Samouraï;1967;236;8.1;Jean-Pierre Melville
+Twelve Monkeys;1995;203;8.1;Terry Gilliam
+The Lives of Others;2006;55;8.5;Florian Henckel von Donnersmarck
+The Sixth Sense;1999;161;8.2;M. Night Shyamalan
+There Will Be Blood;2007;175;8.1;Paul Thomas Anderson
+Infernal Affairs;2002;205;8.1;Wai-Keung Lau,Alan Mak
+Donnie Darko;2001;199;8.1;Richard Kelly
+Pirates of the Caribbean: The Curse of the Black Pearl;2003;229;8.1;Gore Verbinski
+Lawrence of Arabia;1962;85;8.4;David Lean
+The Shawshank Redemption;1994;1;9.3;Frank Darabont
+The Elephant Man;1980;137;8.2;David Lynch
+Witness for the Prosecution;1957;81;8.4;Billy Wilder
+The Gold Rush;1925;132;8.3;Charles Chaplin
+The Grapes of Wrath;1940;187;8.2;John Ford
+The Bridge on the River Kwai;1957;127;8.3;David Lean
+Seven Samurai;1954;20;8.7;Akira Kurosawa
+Finding Nemo;2003;163;8.2;Andrew Stanton,Lee Unkrich
+Jaws;1975;208;8.1;Steven Spielberg
+The Hunt;2012;121;8.3;Thomas Vinterberg
+The Treasure of the Sierra Madre;1948;101;8.3;John Huston
+Gladiator;2000;48;8.5;Ridley Scott
+The Deer Hunter;1978;148;8.2;Michael Cimino
+City Lights;1931;34;8.6;Charles Chaplin
+Diabolique;1955;189;8.2;Henri-Georges Clouzot
+Life of Brian;1979;170;8.2;Terry Jones
+The Graduate;1967;249;8.0;Mike Nichols
+Rebecca;1940;144;8.2;Alfred Hitchcock
+Dog Day Afternoon;1975;218;8.1;Sidney Lumet
+Grave of the Fireflies;1988;66;8.5;Isao Takahata
+Into the Wild;2007;157;8.2;Sean Penn
+The Usual Suspects;1995;23;8.7;Bryan Singer
+12 Angry Men;1957;7;8.9;Sidney Lumet
+Pan's Labyrinth;2006;125;8.3;Guillermo del Toro
+The Dark Knight Rises;2012;61;8.5;Christopher Nolan
+Gran Torino;2008;142;8.2;Clint Eastwood
+Hotel Rwanda;2004;166;8.2;Terry George
+Howl's Moving Castle;2004;141;8.2;Hayao Miyazaki
+The Big Sleep;1946;239;8.1;Howard Hawks
+To Kill a Mockingbird;1962;84;8.4;Robert Mulligan
+Die Hard;1988;120;8.3;John McTiernan
+Whiplash;2014;41;8.6;Damien Chazelle
+My Neighbor Totoro;1988;128;8.3;Hayao Miyazaki
+Gone with the Wind;1939;155;8.2;Victor Fleming,George Cukor,Sam Wood
+WALL·E;2008;63;8.4;Andrew Stanton
+Braveheart;1995;78;8.4;Mel Gibson
+Guardians of the Galaxy;2014;202;8.1;James Gunn
+Raging Bull;1980;114;8.3;Martin Scorsese
+A Fistful of Dollars;1964;226;8.1;Sergio Leone
+Princess Mononoke;1997;72;8.4;Hayao Miyazaki
+The Big Lebowski;1998;145;8.2;Joel Coen,Ethan Coen
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb;1964;50;8.5;Stanley Kubrick
+Lagaan: Once Upon a Time in India;2001;243;8.2;Ashutosh Gowariker
+Groundhog Day;1993;210;8.1;Harold Ramis
+Notorious;1946;221;8.1;Alfred Hitchcock
+The Godfather;1972;2;9.2;Francis Ford Coppola

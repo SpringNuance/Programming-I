@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Adventure/Adventure.iml" filepath="$PROJECT_DIR$/Adventure/Adventure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdventureDraft/AdventureDraft.iml" filepath="$PROJECT_DIR$/AdventureDraft/AdventureDraft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aliohjelmia/Aliohjelmia.iml" filepath="$PROJECT_DIR$/Aliohjelmia/Aliohjelmia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuctionHouse1/AuctionHouse1.iml" filepath="$PROJECT_DIR$/AuctionHouse1/AuctionHouse1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuctionHouse2/AuctionHouse2.iml" filepath="$PROJECT_DIR$/AuctionHouse2/AuctionHouse2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ave/Ave.iml" filepath="$PROJECT_DIR$/Ave/Ave.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CarSim/CarSim.iml" filepath="$PROJECT_DIR$/CarSim/CarSim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CitySim/CitySim.iml" filepath="$PROJECT_DIR$/CitySim/CitySim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DoWhile/DoWhile.iml" filepath="$PROJECT_DIR$/DoWhile/DoWhile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Election/Election.iml" filepath="$PROJECT_DIR$/Election/Election.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Files/Files.iml" filepath="$PROJECT_DIR$/Files/Files.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlappyBug/FlappyBug.iml" filepath="$PROJECT_DIR$/FlappyBug/FlappyBug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Football1/Football1.iml" filepath="$PROJECT_DIR$/Football1/Football1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Football2/Football2.iml" filepath="$PROJECT_DIR$/Football2/Football2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Football3/Football3.iml" filepath="$PROJECT_DIR$/Football3/Football3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Football4/Football4.iml" filepath="$PROJECT_DIR$/Football4/Football4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForLoops/ForLoops.iml" filepath="$PROJECT_DIR$/ForLoops/ForLoops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GoodStuff/GoodStuff.iml" filepath="$PROJECT_DIR$/GoodStuff/GoodStuff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HigherOrder/HigherOrder.iml" filepath="$PROJECT_DIR$/HigherOrder/HigherOrder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntroApps/IntroApps.iml" filepath="$PROJECT_DIR$/IntroApps/IntroApps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntroOOP/IntroOOP.iml" filepath="$PROJECT_DIR$/IntroOOP/IntroOOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Miscellaneous/Miscellaneous.iml" filepath="$PROJECT_DIR$/Miscellaneous/Miscellaneous.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MoreApps/MoreApps.iml" filepath="$PROJECT_DIR$/MoreApps/MoreApps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MovieStats/MovieStats.iml" filepath="$PROJECT_DIR$/MovieStats/MovieStats.iml" />
+      <module fileurl="file://$PROJECT_DIR$/O1Library/O1Library.iml" filepath="$PROJECT_DIR$/O1Library/O1Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Odds/Odds.iml" filepath="$PROJECT_DIR$/Odds/Odds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Oliointro/Oliointro.iml" filepath="$PROJECT_DIR$/Oliointro/Oliointro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Peeveli/Peeveli.iml" filepath="$PROJECT_DIR$/Peeveli/Peeveli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pikkusovelluksia/Pikkusovelluksia.iml" filepath="$PROJECT_DIR$/Pikkusovelluksia/Pikkusovelluksia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pong/Pong.iml" filepath="$PROJECT_DIR$/Pong/Pong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RobotTribes/RobotTribes.iml" filepath="$PROJECT_DIR$/RobotTribes/RobotTribes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Robots/Robots.iml" filepath="$PROJECT_DIR$/Robots/Robots.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sananmuunnos/Sananmuunnos.iml" filepath="$PROJECT_DIR$/Sananmuunnos/Sananmuunnos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sentiments/Sentiments.iml" filepath="$PROJECT_DIR$/Sentiments/Sentiments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Snake/Snake.iml" filepath="$PROJECT_DIR$/Snake/Snake.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stars/Stars.iml" filepath="$PROJECT_DIR$/Stars/Stars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Subprograms/Subprograms.iml" filepath="$PROJECT_DIR$/Subprograms/Subprograms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Subtypes/Subtypes.iml" filepath="$PROJECT_DIR$/Subtypes/Subtypes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwingExamples/SwingExamples.iml" filepath="$PROJECT_DIR$/SwingExamples/SwingExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Train/Train.iml" filepath="$PROJECT_DIR$/Train/Train.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Viinaharava/Viinaharava.iml" filepath="$PROJECT_DIR$/Viinaharava/Viinaharava.iml" />
+    </modules>
+  </component>
+</project>

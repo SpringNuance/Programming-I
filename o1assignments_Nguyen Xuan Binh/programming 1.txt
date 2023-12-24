@@ -1,0 +1,23 @@
+2.9
+   var Circle = circle(300,Red)
+   var Circle1 = Circle.scaleBy(2)
+   var Circle2 = Circle1.flipVertical
+   var Circle3 = Circle2.clockwise(15)
+   println(Circle3.history)
+
+2.12
+   def flagOfSomalia(width:Int) = {
+      var flag = rectangle(width, width/3*2, RoyalBlue)
+      var star1 = star(width/13*4, White)
+      star1.onto(flag)
+    }
+
+2.13
+   def flagOfFinland(width:Int) = {
+      var rec1 = rectangle(width.toFloat/18*5, width.toFloat/18*4, White)
+      var rec2 = rec1.leftOf(rectangle(width.toFloat/18*3, width.toFloat/18*4, Blue))
+      var rec3 = rec2.leftOf(rectangle(width.toFloat/18*10, width.toFloat/18*4, White))
+      var rec4 = rec3.below(rectangle(width.toFloat, width.toFloat/18*3,Blue))
+      var rec5 = rec4.below(rec3)
+      rec5
+    }

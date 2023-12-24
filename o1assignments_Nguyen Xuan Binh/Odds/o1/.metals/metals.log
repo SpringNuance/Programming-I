@@ -1,0 +1,105 @@
+2022.09.16 16:23:37 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Odds/o1/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.09.16 16:23:37 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Odds/o1/.metals/metals.log
+2022.09.16 16:23:37 INFO  Started: Metals version 0.11.8 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Odds/o1' for client Visual Studio Code 1.71.0.
+2022.09.16 16:23:38 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.09.16 16:23:39 INFO  time: initialize in 1.45s
+2022.09.16 16:23:40 WARN  Build server is not auto-connectable.
+2022.09.16 16:23:40 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Odds/o1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.09.16 16:23:40 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Odds/o1/Odds.scala
+Sep 16, 2022 4:23:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 1151 out of bounds for length 1151
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 1151 out of bounds for length 1151
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 1151 out of bounds for length 1151
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.isScala3BlockWithoutOptionalBraces(FoldingRangeExtractor.scala:248)
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.unapply(FoldingRangeExtractor.scala:199)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:36)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:29)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1705)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.09.16 16:23:44 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Odds/o1/Odds.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.09.16 16:23:46 INFO  time: code lens generation in 4.8s
+2022.09.16 22:47:20 INFO  shutting down Metals
+2022.09.17 19:13:18 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Odds/o1/.metals/lsp.trace.json or /Users/mac/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.09.17 19:13:19 INFO  logging to file /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Odds/o1/.metals/metals.log
+2022.09.17 19:13:19 INFO  Started: Metals version 0.11.8 in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Odds/o1' for client Visual Studio Code 1.71.0.
+2022.09.17 19:13:20 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.09.17 19:13:20 INFO  time: initialize in 1.47s
+2022.09.17 19:13:22 WARN  Build server is not auto-connectable.
+2022.09.17 19:13:22 WARN  no build tool detected in workspace '/Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Odds/o1'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.09.17 19:13:22 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Odds/o1/OddsTest1.scala
+2022.09.17 19:13:24 INFO  no build target found for /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Odds/o1/OddsTest1.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.09.17 19:13:26 INFO  time: code lens generation in 4.22s
+2022.09.17 19:13:26 INFO  time: code lens generation in 1.86s
+2022.09.17 19:21:34 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Odds/o1/Odds.scala
+Sep 17, 2022 7:21:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.ArrayIndexOutOfBoundsException: Index 1151 out of bounds for length 1151
+java.util.concurrent.CompletionException: java.lang.ArrayIndexOutOfBoundsException: Index 1151 out of bounds for length 1151
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 1151 out of bounds for length 1151
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.isScala3BlockWithoutOptionalBraces(FoldingRangeExtractor.scala:248)
+	at scala.meta.internal.parsing.FoldingRangeExtractor$Foldable$.unapply(FoldingRangeExtractor.scala:199)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:36)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2(FoldingRangeExtractor.scala:56)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.$anonfun$extractFrom$2$adapted(FoldingRangeExtractor.scala:51)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extractFrom(FoldingRangeExtractor.scala:51)
+	at scala.meta.internal.parsing.FoldingRangeExtractor.extract(FoldingRangeExtractor.scala:29)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$3(FoldingRangeProvider.scala:40)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.FoldingRangeProvider.$anonfun$getRangedForScala$2(FoldingRangeProvider.scala:33)
+	at scala.Option$WithFilter.flatMap(Option.scala:283)
+	at scala.meta.internal.parsing.FoldingRangeProvider.getRangedForScala(FoldingRangeProvider.scala:31)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$foldingRange$2(MetalsLanguageServer.scala:1705)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.09.17 19:22:01 WARN  no build target for: /Users/mac/Aalto Courses/Programming I/o1assignments_Nguyen Xuan Binh/Odds/o1/OddsTest1.scala
+2022.09.17 20:12:02 INFO  shutting down Metals

@@ -1,0 +1,6 @@
+spin
+goto 1
+
+# Each member of the Guardian Tribe guards a spot:
+# it turns clockwise and hacks anything that comes
+# close.  It never moves.

@@ -1,0 +1,22 @@
+All the images in this folder are in the public domain unless otherwise specified.
+The subfolders have their own license.txt.
+
+bird.png
+carton.png
+valkoparta.png
+are used under licence from Shutterstock (https://www.shutterstock.com/)
+
+glider.png
+horse.png
+are used under licence from the Noun Project (https://thenounproject.com/)
+
+hidden1.png
+is a scrambled version of a photo by Duane Wessels; it’s available under CC:
+http://creativecommons.org/licenses/by-nc-sa/3.0/
+
+kid.png
+is an edited version of a photo by Antti Sorva; it’s used with permission.
+
+llama.png
+is a photo by Juha Sorva. Feel free to use it for anything.
+

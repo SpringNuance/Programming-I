@@ -1,0 +1,18 @@
+  #########################################################
+  # A member of the Tiger Tribe moves straight forward,   #
+  # hacking anything it sees in front of it. When its     #
+  # route is blocked, it turns either left or right at    #
+  # random.                                               #
+  #########################################################
+
+ start:                        # Main loop: turn or move
+   ifnempty turn               # turn if facing an obstacle
+   move                        # move otherwise
+   goto start                  # repeat the above
+
+ turn:                         # Turn left or right at random
+   ifrandom noswitch
+   switch
+ noswitch:
+   spin
+   goto start

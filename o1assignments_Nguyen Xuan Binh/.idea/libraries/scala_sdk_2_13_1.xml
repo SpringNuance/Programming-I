@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="scala-sdk-2.13.1" type="Scala">
+    <properties>
+      <language-level>Scala_2_13</language-level>
+      <compiler-classpath>
+        <root url="file://$PROJECT_DIR$/lib/scala-sdk-2.13.1/jansi-1.12.jar" />
+        <root url="file://$PROJECT_DIR$/lib/scala-sdk-2.13.1/jline-2.14.6.jar" />
+        <root url="file://$PROJECT_DIR$/lib/scala-sdk-2.13.1/scala-compiler.jar" />
+        <root url="file://$PROJECT_DIR$/lib/scala-sdk-2.13.1/scala-library.jar" />
+        <root url="file://$PROJECT_DIR$/lib/scala-sdk-2.13.1/scala-reflect.jar" />
+        <root url="file://$PROJECT_DIR$/lib/scala-sdk-2.13.1/scalap-2.13.1.jar" />
+      </compiler-classpath>
+    </properties>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/scala-sdk-2.13.1/scala-library.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scala-sdk-2.13.1/scala-reflect.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

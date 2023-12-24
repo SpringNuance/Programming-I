@@ -1,0 +1,6 @@
+move
+goto 1
+
+# Members of the Headless Chicken Tribe just run
+# straight until they reach a wall, then fail to
+# do anything about it.

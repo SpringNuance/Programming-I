@@ -1,0 +1,25 @@
+label1:
+  callsub check1
+  iffriend 8
+  ifwall 8
+  move
+  switch
+  goto label1
+  spin
+  goto label1
+
+check1:
+  friendsnear
+  set mem radar
+  enemiesnear
+  set mem2 radar
+  iflt mem mem2 19
+  move
+  return
+  spin
+  return
+
+# Lord Dustin of mytribe will check whether their neighborhood has more friends than enemies.
+# If more enemies than friends they will move, otherwise they just spin
+# After that, if they meet a friend or a wall, they will just spin. If they see an enemy, of course they will prioritize hacking.
+# If the square is empty they just move forward and change their spinning direction
